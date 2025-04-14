@@ -4,6 +4,7 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  background-color: hsl(0, 0%, 98%);
 }
 
 main {
@@ -29,10 +30,42 @@ h2 {
   font-size: clamp(0.8rem, 5vw, 1.5rem);
 }
 
+img {
+  display: block;
+  margin-left: auto;
+}
+
 .darkgray {
   color: hsl(234, 12%, 34%)
 }
 
+.mb-50px {
+  margin-bottom: 50px;
+}
+
+.card {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 11px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.bt-cyan{
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.bt-red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.bt-orange {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.bt-blue {
+  border-top: 4px solid hsl(212, 86%, 64%)
+}
 
 .attribution {
   font-size: 11px;
